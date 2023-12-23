@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningBPM.MainPage">
+
+    <Grid RowDefinitions="1*,2*,4*,2*"
+     ColumnDefinitions="5*,5*"
+     RowSpacing="10"
+     ColumnSpacing="10"
+     Margin="20">
+
+        <Label Text="語言學習"
+           Grid.Row="0"
+           Grid.Column="0"
+           Grid.ColumnSpan="2"
+           FontSize="48"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+        <Border Grid.Row="2"
+            Grid.Column="0"
+            Padding="20">
+            <VerticalStackLayout Spacing="10"
+                             VerticalOptions="Center">
+                <ImageButton Source="color.png"
+                         Aspect="AspectFit"
+                         HeightRequest="120"
+                         CommandParameter="Bpm"   
+                         Clicked="ImageButton_Clicked"/>
+                <Label Text="ㄅㄆㄇ"
+                   FontSize="36"
+                   HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Grid.Row="2"
+            Grid.Column="1"
+            Padding="20">
+            <VerticalStackLayout Spacing="10"
+                     VerticalOptions="Center">
+                <ImageButton Source="color.png"
+                 Aspect="AspectFit"
+                 HeightRequest="120"
+                 CommandParameter="Question"
+                 Clicked="ImageButton_Clicked_Exam"/>
+                <Label Text="練習"
+                   FontSize= "36"
+                   HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+
+    </Grid>
+
+
+</ContentPage>

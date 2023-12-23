@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningBPM.ListPage1"
+             Title="ListPage1">
+    <CollectionView Margin="5"
+            x:Name="CvKids"
+            SelectionMode="Single"
+            SelectionChanged="CvKids_SelectionChanged">
+        <CollectionView.ItemsLayout>
+            <GridItemsLayout Orientation="Vertical"
+                     HorizontalItemSpacing="20"
+                     VerticalItemSpacing="20"
+                     Span="2"/>
+        </CollectionView.ItemsLayout>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Border Padding="60">
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Label FontSize="50"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Text="{Binding Name}"/>
+                    </VerticalStackLayout>
+                </Border>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>

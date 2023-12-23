@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningBPM.ListPage3"
+             Title="ListPage3">
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,10*">
+        <Grid Grid.Row="0"
+              RowDefinitions="Auto,Auto"
+              ColumnDefinitions="0.33*,0.43*,0.63*"
+              BackgroundColor="#D2E9FF">
+            <Label Grid.Row="0"
+                   Grid.Column="0"
+                   x:Name="LblWord"
+                   Margin="10"
+                   FontSize="50"
+                   FontAttributes="Bold"/>
+            <Label Grid.Row="0"
+                   Grid.Column="1"
+                   x:Name="LblRadical"
+                   Margin="30"
+                   FontSize="Large"
+                   FontAttributes="None"/>
+            <Label Grid.Row="0"
+                   Grid.Column="2"
+                   x:Name="LblTotalNumberOfStrokes"
+                   Margin="30"
+                   FontSize="Large"
+                   FontAttributes="Bold"/>
+            <BoxView Grid.Row="1"
+             Color="White"
+             CornerRadius="10"
+             WidthRequest="1000"
+             HeightRequest="10"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"/>
+        </Grid>
+        <Grid Grid.Row="1" BackgroundColor="#D2E9FF">
+            <Label Grid.Row="1"
+                   x:Name="LblTitle"
+                   Margin="10"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextDecorations="Underline"
+                   Text="注  音"/>
+            
+        </Grid>
+
+        <Grid Grid.Row="2" BackgroundColor="#D2E9FF" RowDefinitions="Auto,Auto">
+             <Label Grid.Row="0"
+                    Grid.Column="0"
+                   x:Name="LblPhoneticNotation"
+                   Margin="10"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   />
+            <BoxView Grid.Row="1"
+                Color="White"
+                CornerRadius="10"
+                WidthRequest="1000"
+                HeightRequest="10"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        </Grid>
+
+        
+        <Grid Grid.Row="3"
+               BackgroundColor="#D2E9FF">
+            <Label Grid.Row="3"
+                    Grid.Column="0"
+                    Text="解  釋"
+                    Margin="10"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextDecorations="Underline"/>
+        </Grid>
+
+       
+             <Grid Grid.Row="4"
+              BackgroundColor="#D2E9FF">
+                  <ScrollView >
+            <Label Grid.Row="4"
+                    Grid.Column="0"
+                    x:Name="LblContent"
+                    Margin="10"
+                    FontSize="Body"/>
+                 </ScrollView>
+        </Grid>   
+        
+        
+        
+       
+    </Grid>
+</ContentPage>
