@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningBPM.ExamPage1"
+             Title="ExamPage1">
+    <StackLayout>
+        <!-- 題號和分數 -->
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="questionNumberLabel" Text="1/10" />
+            <Label x:Name="scoreLabel" Text="Score: 0" HorizontalOptions="EndAndExpand" />
+        </StackLayout>
+
+        <!-- 圖片和題目 -->
+        <Image x:Name="questionImage" HeightRequest="200" />
+        <Label x:Name="questionTextLabel" HorizontalOptions="Center" />
+
+        <!-- 答案輸入框 -->
+        <Label Text="Answer:" />
+        <Entry x:Name="answerEntry" />
+
+        <!-- 下一題按鈕 -->
+        <Button x:Name="btn" Text="下一題" Clicked="NextQuestion_Clicked" />
+    </StackLayout>
+</ContentPage>

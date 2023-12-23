@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningBPM", "LearningBPM\LearningBPM.csproj", "{7039109E-A669-4992-96B6-1D4F9A057DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7039109E-A669-4992-96B6-1D4F9A057DCE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32E8B952-232F-4DB0-B5FD-352E9A19B09E}
+	EndGlobalSection
+EndGlobal

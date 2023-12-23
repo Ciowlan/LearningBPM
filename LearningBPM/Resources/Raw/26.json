@@ -1,0 +1,29 @@
+[
+    {
+        "ID": 1,
+        "Word": "喔",
+        "Radical": "口",
+        "Total_number_of_strokes": "12",
+        "Strokes_outside_the_radical": "09",
+        "Phonetic_notation": "ㄛ",
+        "Explain": "嘆ㄊㄢˋ詞ㄘˊ。表ㄅㄧㄠˇ示ㄕˋ驚ㄐㄧㄥ訝ㄧㄚˋ或ㄏㄨㄛˋ了ㄌㄧㄠˇ解ㄐㄧㄝˇ的˙ㄉㄜ語ㄩˇ氣ㄑㄧˋ。如ㄖㄨˊ：「喔ㄛ！好ㄏㄠˇ厲ㄌㄧˋ害ㄏㄞˋ！」、「喔ㄛ！原ㄩㄢˊ來ㄌㄞˊ如ㄖㄨˊ此ㄘˇ！」"
+    },
+    {
+        "ID": 2,
+        "Word": "呵",
+        "Radical": "口",
+        "Total_number_of_strokes": "08",
+        "Strokes_outside_the_radical": "05",
+        "Phonetic_notation": "ㄛ",
+        "Explain": "助ㄓㄨˋ詞ㄘˊ。用ㄩㄥˋ於ㄩˊ句ㄐㄩˋ尾ㄨㄟˇ或ㄏㄨㄛˋ語ㄩˇ氣ㄑㄧˋ停ㄊㄧㄥˊ頓ㄉㄨㄣˋ處ㄔㄨˋ。表ㄅㄧㄠˇ示ㄕˋ驚ㄐㄧㄥ嘆ㄊㄢˋ的˙ㄉㄜ語ㄩˇ氣ㄑㄧˋ。如ㄖㄨˊ：「這ㄓㄜˋ組ㄗㄨˇ玩ㄨㄢˊ具ㄐㄩˋ這ㄓㄜˋ麼˙ㄇㄜ貴ㄍㄨㄟˋ呵ㄛ！我ㄨㄛˇ可ㄎㄜˇ買ㄇㄞˇ不ㄅㄨˋ起ㄑㄧˇ。」"
+    },
+    {
+        "ID": 3,
+        "Word": "哦",
+        "Radical": "口",
+        "Total_number_of_strokes": "10",
+        "Strokes_outside_the_radical": "07",
+        "Phonetic_notation": "ㄛˊ",
+        "Explain": "嘆ㄊㄢˋ詞ㄘˊ。表ㄅㄧㄠˇ示ㄕˋ驚ㄐㄧㄥ悟ㄨˋ或ㄏㄨㄛˋ領ㄌㄧㄥˇ會ㄏㄨㄟˋ的˙ㄉㄜ語ㄩˇ氣ㄑㄧˋ。如ㄖㄨˊ：「哦ㄛˊ！我ㄨㄛˇ明ㄇㄧㄥˊ白ㄅㄞˊ了˙ㄌㄜ。」"
+    }
+]
