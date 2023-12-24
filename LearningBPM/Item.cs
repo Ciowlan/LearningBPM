@@ -14,7 +14,6 @@ namespace LearningBPM
     public class LearningData
     {
         public List<Item> Bpm { get; set; }
-        public List<Item> Colors { get; set; }
         
         public LearningData()
         {
@@ -59,19 +58,6 @@ namespace LearningBPM
                new Item(){Name="£·", ImageUrl="alphabet_a.png", ID = "37"}
             };
                
-            Colors = new List<Item>()
-            {
-               new Item() { Name = "Black", ImageUrl = "color_black.png" },
-               new Item() { Name = "Blue", ImageUrl = "color_blue.png" },
-               new Item() { Name = "Gray", ImageUrl = "color_gray.png" },
-               new Item() { Name = "Green", ImageUrl = "color_green.png" },
-               new Item() { Name = "Orange", ImageUrl = "color_orange.png" },
-               new Item() { Name = "Purple", ImageUrl = "color_purple.png" },
-               new Item() { Name = "Red", ImageUrl = "color_red.png" },
-               new Item() { Name = "Yellow", ImageUrl = "color_yellow.png" },
-            };
-
-
            
         }
 
